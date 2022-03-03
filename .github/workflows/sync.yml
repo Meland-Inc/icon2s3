@@ -29,7 +29,7 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/cloth_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
@@ -37,7 +37,7 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/ic_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
@@ -45,7 +45,7 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/icob_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
@@ -53,7 +53,7 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/monster_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
@@ -61,7 +61,7 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/npcbyuser_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
@@ -69,13 +69,9 @@ jobs:
         uses: Meland-Inc/svn-checkout@main
         with:
           resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/weapon_ic/"
-          target_dir: ./data
+          target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-
-      - name: ls
-        run: |
-          ls ./data
 
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
