@@ -1,16 +1,11 @@
 name: Sync
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       build_env:
         required: true
         type: string
-    secrets:
-      aws_access_key_id:
-        required: true
-      aws_secret_access_key:
-        required: true
 
 env:
   AWS_REGION: ap-southeast-1
