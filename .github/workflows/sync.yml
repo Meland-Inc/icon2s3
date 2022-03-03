@@ -1,0 +1,63 @@
+name: Sync
+
+on:
+  workflow_call:
+    inputs:
+      build_env:
+        required: true
+        type: string
+    secrets:
+      aws_access_key_id:
+        required: true
+      aws_secret_access_key:
+        required: true
+
+env:
+  AWS_REGION: ap-southeast-1
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: SVN checkout 1
+        uses: Meland-Inc/svn-checkout@main
+        with:
+          resources_url: ""
+          target_dir: ./data
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+
+      - name: SVN checkout 2
+        uses: Meland-Inc/svn-checkout@main
+        with:
+          resources_url: ""
+          target_dir: ./data
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+
+      - name: SVN checkout 3
+        uses: Meland-Inc/svn-checkout@main
+        with:
+          resources_url: ""
+          target_dir: ./data
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+
+      - name: Commit icon's
+        uses: EndBug/add-and-commit@v8
+        with:
+          push: true
+          add: ./data
+          author_name: AlbertHuang
+          author_email: r.albert.huang@gmail.com
