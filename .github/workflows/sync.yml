@@ -73,6 +73,10 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
+      - name: ls
+        run: |
+          ls ./data
+
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
         with:
@@ -80,3 +84,4 @@ jobs:
           add: ./data
           author_name: AlbertHuang
           author_email: r.albert.huang@gmail.com
+          message: Sync icon's from svn
