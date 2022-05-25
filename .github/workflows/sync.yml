@@ -28,7 +28,7 @@ jobs:
       - name: SVN checkout 1
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/cloth_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/cloth_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -36,7 +36,7 @@ jobs:
       - name: SVN checkout 2
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/ic_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/ic_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -44,7 +44,7 @@ jobs:
       - name: SVN checkout 3
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/icob_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/icob_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -52,7 +52,7 @@ jobs:
       - name: SVN checkout 4
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/monster_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/monster_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -60,7 +60,7 @@ jobs:
       - name: SVN checkout 5
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/npcbyuser_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/npcbyuser_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -68,7 +68,7 @@ jobs:
       - name: SVN checkout 6
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://svn.it.wkcoding.com:13690/bellplanet/versionRes/trunk/settings/resource/item_icon/weapon_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/weapon_ic/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
