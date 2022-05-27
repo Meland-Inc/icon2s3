@@ -73,6 +73,14 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
+      - name: SVN checkout quiz
+        uses: Meland-Inc/svn-checkout@main
+        with:
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/quiz"
+          target_dir: ./github/workspace/data/quiz
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
         with:
