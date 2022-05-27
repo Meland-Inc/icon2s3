@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       build_env:
-        required: true
+        required: false
         type: string
 
 env:
