@@ -85,7 +85,7 @@ jobs:
         uses: EndBug/add-and-commit@v8
         with:
           new_branch: gh-pages
-          push: true
+          push: "origin gh-pages --force"
           add: ./data
           author_name: AlbertHuang
           author_email: r.albert.huang@gmail.com
