@@ -81,6 +81,10 @@ jobs:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
 
+      - name: MergeIconDir2Top
+        run: |
+          bash ./RecursiveMerging.sh
+
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
         with:
