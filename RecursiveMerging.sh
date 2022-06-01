@@ -9,7 +9,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-pngdirs=$(find "${PROJECT_ROOT}/data");
+pngdirs=$(find "${PROJECT_ROOT}/data" -type d);
 
 echo "find done.";
 
