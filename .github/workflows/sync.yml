@@ -1,11 +1,7 @@
 name: Sync
 
 on:
-  workflow_dispatch:
-    inputs:
-      build_env:
-        required: false
-        type: string
+  workflow_dispatch
 
 env:
   AWS_REGION: ap-southeast-1
