@@ -40,8 +40,8 @@ jobs:
       - name: MergeIconDir2Top
         run: |
           bash --version
-          ls ./github/workspace/data
           bash ./RecursiveMerging.sh
+          ls ./data
 
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
