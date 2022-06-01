@@ -9,7 +9,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-pngdirs=$(find "${PROJECT_ROOT}/data" -type d);
+pngdirs=$(find "${PROJECT_ROOT}/data" -type d -maxdepth 20);
 
 echo "find done.";
 
@@ -19,6 +19,6 @@ do
     if [[ "$bn" = @(data|quiz) ]]; then
         echo "skip $bn";
     else
-        sudo rsync -vau --remove-source-files "$pngdir/" "${PROJECT_ROOT}/data"
+        sudo rsync -var --remove-source-files "$pngdir/" "${PROJECT_ROOT}/data"
     fi
 done
