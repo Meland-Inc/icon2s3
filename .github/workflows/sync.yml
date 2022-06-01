@@ -21,50 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: SVN checkout 1
+      - name: SVN checkout icon
         uses: Meland-Inc/svn-checkout@main
         with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/cloth_ic/"
-          target_dir: ./github/workspace/data
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-
-      - name: SVN checkout 2
-        uses: Meland-Inc/svn-checkout@main
-        with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/ic_ic/"
-          target_dir: ./github/workspace/data
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-
-      - name: SVN checkout 3
-        uses: Meland-Inc/svn-checkout@main
-        with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/icob_ic/"
-          target_dir: ./github/workspace/data
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-
-      - name: SVN checkout 4
-        uses: Meland-Inc/svn-checkout@main
-        with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/monster_ic/"
-          target_dir: ./github/workspace/data
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-
-      - name: SVN checkout 5
-        uses: Meland-Inc/svn-checkout@main
-        with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/npcbyuser_ic/"
-          target_dir: ./github/workspace/data
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-
-      - name: SVN checkout 6
-        uses: Meland-Inc/svn-checkout@main
-        with:
-          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/weapon_ic/"
+          resources_url: "http://18.141.188.61/svn/meland_bellplanet/versionRes/trunk/settings/resource/item_icon/"
           target_dir: ./github/workspace/data
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
@@ -79,6 +39,7 @@ jobs:
 
       - name: MergeIconDir2Top
         run: |
+          bash --version
           bash ./RecursiveMerging.sh
 
       - name: Commit icon's

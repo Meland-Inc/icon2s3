@@ -5,7 +5,7 @@ cd "$tmp_dir"
 PROJECT_ROOT=$(pwd)
 RUN_ROOT=/$(pwd)
 
-pngdirs=$(find "${PROJECT_ROOT}/data" -type "dir," -maxdepth 10);
+pngdirs=$(find "${PROJECT_ROOT}/data" -type dir -maxdepth 10);
 
 for pngdir in $pngdirs
 do
