@@ -5,6 +5,10 @@ cd "$tmp_dir"
 PROJECT_ROOT=$(pwd)
 RUN_ROOT=/$(pwd)
 
+set -o errexit
+set -o nounset
+set -o pipefail
+
 pngdirs=$(find "${PROJECT_ROOT}/data" -type dir -maxdepth 10);
 
 for pngdir in $pngdirs
