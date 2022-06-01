@@ -11,6 +11,8 @@ set -o pipefail
 
 pngdirs=$(find "${PROJECT_ROOT}/data" -type dir -maxdepth 10);
 
+echo "find done.";
+
 for pngdir in $pngdirs
 do
     bn=$(basename $pngdir)
