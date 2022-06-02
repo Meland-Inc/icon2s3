@@ -19,6 +19,6 @@ do
     if [[ "$bn" = @(data|quiz) ]]; then
         echo "skip $bn";
     else
-        sudo rsync -var --remove-source-files "$pngdir/" "${PROJECT_ROOT}/data"
+        find "$pngdir" -maxdepth 1 -type f -print | xargs -I {} mv {} "${PROJECT_ROOT}/data"
     fi
 done
