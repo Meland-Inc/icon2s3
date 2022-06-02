@@ -42,11 +42,6 @@ jobs:
           bash --version
           bash ./RecursiveMerging.sh
 
-      - name: MergeIconDir2Top2
-        run: |
-          bash --version
-          bash ./RecursiveMerging.sh
-
       - name: Commit icon's
         uses: EndBug/add-and-commit@v8
         with:
