@@ -1,0 +1,115 @@
+{
+    "configInfo": {
+        "name": "卡片记忆",
+        "difficulty": {
+            "cardNum": "卡牌数量,cardNum>0",
+            "hiddenCardNum": "隐藏的卡牌数量,hiddenCardNum<=cardNum",
+            "optionNum": "选项数量,optionNum>=hiddenCardNum"
+        },
+        "resList": ""
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    
+                    {
+                        "cardNum": 3,
+                        "hiddenCardNum": 2,
+                        "optionNum": 3
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                   
+                    {
+                        "cardNum": 4,
+                        "hiddenCardNum": 2,
+                        "optionNum": 5
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                   
+                    {
+                        "cardNum": 6,
+                        "hiddenCardNum": 3,
+                        "optionNum": 6
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                   
+                    {
+                        "cardNum": 7,
+                        "hiddenCardNum": 5,
+                        "optionNum": 7
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                   
+                    {
+                        "cardNum": 7,
+                        "hiddenCardNum": 5,
+                        "optionNum": 8
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                   
+                    {
+                        "cardNum": 8,
+                        "hiddenCardNum": 5,
+                        "optionNum": 8
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [
+            [
+                "cailiao_0000_niupi_png",
+                "cailiao_0001_niujiao_png",
+                "cailiao_0002_yangmao_png",
+                "cailiao_0003_kuangshi_png",
+                "cailiao_0004_longgu_png",
+                "cailiao_0005_yangjiao_png",
+                "shipin_0000s_0000_png",
+                "shipin_0000s_0001_png",
+                "shipin_0000s_0002_png",
+                "shipin_0000s_0003_png",
+                "shipin_0000s_0004_png",
+                "shipin_0000s_0005_png",
+                "shipin_0000_CFGC_1_1_25_png",
+                "shipin_0001_CFGC_1_1_22_png",
+                "shipin_0002_CFGC_1_1_21_png",
+                "shipin_0003_CFGC_1_1_20_png",
+                "shipin_0004_CFGC_1_1_13_png",
+                "shipin_0005_CFGC_1_1_12_png",
+                "shipin_0006_CFGC_1_1_11_png",
+                "shipin_0007_CFGC_1_1_10_png",
+                "shipin_0008_CFGC_1_1_02_png",
+                "shipin_0009_CFGC_1_1_01_png",
+                "shipin_0010_CFGC_1_1_26_png"
+            ]
+        ],
+        "type": "CardMemory"
+    }
+}

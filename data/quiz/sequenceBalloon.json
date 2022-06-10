@@ -1,0 +1,229 @@
+{
+    "configInfo": {
+        "name": "序列气球",
+        "difficulty": "level(难度等级) dataList(一个游戏可以由多个关卡组成) balloonNum(气球个数) numTypeList(类型列表) numType(类型int 整型 fraction分数) minNum(最整数)  maxNum(最大数) ",
+        "resList": ""
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "balloonNum": 3,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 1,
+                                "maxNum": 5
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 3,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 1,
+                                "maxNum": 9
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 1,
+                                "maxNum": 9
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 1,
+                                "maxNum": 9
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 0,
+                                "maxNum": 20
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 9,
+                                "maxNum": 20
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 5,
+                                "maxNum": 20
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 5,
+                                "maxNum": 50
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 5,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": 10,
+                                "maxNum": 50
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": -30,
+                                "maxNum": 10
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 5,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": -30,
+                                "maxNum": -5
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 5,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": -50,
+                                "maxNum": -10
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "balloonNum": 5,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": -50,
+                                "maxNum": -10
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 3,
+                        "numTypeList": [
+                            {
+                                "numType": "fraction",
+                                "minNum": 0,
+                                "maxNum": 9
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 3,
+                        "numTypeList": [
+                            {
+                                "numType": "fraction",
+                                "minNum": 0,
+                                "maxNum": 9
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "balloonNum": 5,
+                        "numTypeList": [
+                            {
+                                "numType": "int",
+                                "minNum": -50,
+                                "maxNum": -20
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 3,
+                        "numTypeList": [
+                            {
+                                "numType": "fraction",
+                                "minNum": 0,
+                                "maxNum": 9
+                            }
+                        ]
+                    },
+                    {
+                        "balloonNum": 4,
+                        "numTypeList": [
+                            {
+                                "numType": "fraction",
+                                "minNum": 1,
+                                "maxNum": 5
+                            }
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "SequenceBalloon"
+    }
+}

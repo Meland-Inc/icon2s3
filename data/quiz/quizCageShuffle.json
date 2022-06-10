@@ -1,0 +1,326 @@
+{
+	"configInfo": {
+		"name": "鸟笼洗牌",
+		"difficulty": {
+			"level": "小关卡",
+			"cageNum": {
+				"row": "笼子数量 行数",
+				"col": "笼子数量 列数"
+			},
+			"birdNum": "鸟的数量（答案数量）",
+			"shuffle": {
+				"oblique": "2个对角笼子交换 次数",
+				"leftRight": "2个左右笼子交换 次数",
+				"topBottom": "2个上下笼子交换 次数",
+				"quadant4": "4个笼子旋转交换 次数  ---->  一次性改变四个笼子的位置，属于难度较大的操作"
+			},
+			"shuffleStandStillTime": "每一次 洗牌 停顿时间 毫秒",
+			"shuffleActionTime": "每一次 洗牌 过程时间 毫秒"
+		}
+	},
+	"config": {
+		"difficulty": [{
+				"level": 1,
+				"dataList": [{
+						"cageNum": {
+							"row": 3,
+							"col": 1
+						},
+						"birdNum": 1,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 0,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 200,
+						"shuffleActionTime": 500
+					},
+					{
+						"cageNum": {
+							"row": 1,
+							"col": 3
+						},
+						"birdNum": 2,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 2,
+							"topBottom": 0,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 190,
+						"shuffleActionTime": 480
+					},
+					{
+						"cageNum": {
+							"row": 2,
+							"col": 2
+						},
+						"birdNum": 2,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 180,
+						"shuffleActionTime": 460
+					}
+				],
+				"randNum": 1000
+			},
+			{
+				"level": 2,
+				"dataList": [{
+						"cageNum": {
+							"row": 2,
+							"col": 2
+						},
+						"birdNum": 2,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 180,
+						"shuffleActionTime": 460
+					},
+					{
+						"cageNum": {
+							"row": 2,
+							"col": 3
+						},
+						"birdNum": 2,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 2,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 170,
+						"shuffleActionTime": 440
+					},
+					{
+						"cageNum": {
+							"row": 2,
+							"col": 3
+						},
+						"birdNum": 3,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 160,
+						"shuffleActionTime": 420
+					}
+				],
+				"randNum": 1000
+			},
+			{
+				"level": 3,
+				"dataList": [{
+						"cageNum": {
+							"row": 2,
+							"col": 3
+						},
+						"birdNum": 3,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 1
+						},
+						"shuffleStandStillTime": 160,
+						"shuffleActionTime": 420
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 2
+						},
+						"birdNum": 3,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 0,
+							"topBottom": 1,
+							"quadant4": 2
+						},
+						"shuffleStandStillTime": 150,
+						"shuffleActionTime": 400
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 2
+						},
+						"birdNum": 3,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 1,
+							"topBottom": 0,
+							"quadant4": 3
+						},
+						"shuffleStandStillTime": 140,
+						"shuffleActionTime": 380
+					}
+				],
+				"randNum": 1000
+			},
+			{
+				"level": 4,
+				"dataList": [{
+						"cageNum": {
+							"row": 3,
+							"col": 2
+						},
+						"birdNum": 3,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 2
+						},
+						"shuffleStandStillTime": 140,
+						"shuffleActionTime": 380
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 130,
+						"shuffleActionTime": 360
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 1
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					}
+				],
+				"randNum": 1000
+			},
+			{
+				"level": 5,
+				"dataList": [{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 0,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 1
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 2,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 1
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					}
+				],
+				"randNum": 1000
+			},
+			{
+				"level": 6,
+				"dataList": [{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 4,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 1
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 5,
+						"shuffle": {
+							"oblique": 1,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 120,
+						"shuffleActionTime": 340
+					},
+					{
+						"cageNum": {
+							"row": 3,
+							"col": 3
+						},
+						"birdNum": 5,
+						"shuffle": {
+							"oblique": 2,
+							"leftRight": 1,
+							"topBottom": 1,
+							"quadant4": 0
+						},
+						"shuffleStandStillTime": 140,
+						"shuffleActionTime": 380
+					}
+				],
+				"randNum": 1000
+			}
+		],
+		"resList": [],
+		"type": "CageShuffle"
+	}
+}

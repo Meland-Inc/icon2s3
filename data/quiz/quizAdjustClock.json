@@ -1,0 +1,198 @@
+{
+    "configInfo": {
+        "name": "调整时钟",
+        "difficulty": {
+            "level": "小关卡",
+            "startType": "有3个类型，分别是：whole,half,random，分别对应时钟开始在整点，半点和随机随机。",
+            "rotateType": "有3个类型，分别是：whole,half,random，分别对应转动量是整点，半点和随机。",
+            "rotateRoundRange": "旋转圈数范围，min和max，分别对应最小和最大旋转圈数，,min>0而且max>=min"
+        },
+        "resList": ""
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "startType": "whole",
+                        "rotateType": "whole",
+                        "rotateRoundRange": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "startType": "whole",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "startType": "half",
+                        "rotateType": "whole",
+                        "rotateRoundRange": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "startType": "half",
+                        "rotateType": "whole",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "whole",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "half",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "startType": "random",
+                        "rotateType": "whole",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "startType": "random",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "half",
+                        "rotateRoundRange": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 4,
+                            "max": 4
+                        }
+                    },
+                    {
+                        "startType": "random",
+                        "rotateType": "random",
+                        "rotateRoundRange": {
+                            "min": 4,
+                            "max": 4
+                        }
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "AdjustClock"
+    }
+}

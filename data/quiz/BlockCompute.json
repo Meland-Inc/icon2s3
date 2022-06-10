@@ -1,0 +1,96 @@
+{
+    "configInfo": {
+        "name": "积木计算",
+        "difficulty": {
+            "#level": "难度等级",
+            "#dataList": "一个游戏可以由多个关卡组成",
+            "#randNum": "该难度下需要随机的题目数量",
+            "#brickNums": "砖块 数量范围 [1 ~ 48]"
+        },
+        "resList": "资源配置(现在资源在客户端本地,所以先由客户端配置)"
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    
+                    {
+                        "brickNums": [
+                            2,
+                            5
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    
+                    {
+                        "brickNums": [
+                            6,
+                            10
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                  
+                    {
+                        "brickNums": [
+                            12,
+                            15
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                   
+                    {
+                        "brickNums": [
+                            13,
+                            16
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    
+                    {
+                        "brickNums": [
+                            15,
+                            18
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                   
+                    {
+                        "brickNums": [
+                            18,
+                            22
+                        ]
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "BlockCompute"
+    }
+}

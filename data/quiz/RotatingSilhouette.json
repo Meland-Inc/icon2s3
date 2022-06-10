@@ -1,0 +1,191 @@
+{
+    "configInfo": {
+        "name": "旋转剪影",
+        "difficulty": {
+            "#level": "难度等级",
+            "#dataList": "一个游戏可以由多个关卡组成",
+            "#randNum": "该难度下需要随机的题目数量",
+            "#itemMovementSpeeds": "元素移动速度区间         [0 ~ 1000]    -- 游戏开始的时候,每一个元素会随机该范围内的一个值 ",
+            "#itemRotateSpeeds": "元素旋转速度区间           [0 ~ 1000]    -- 游戏开始的时候,每一个元素会随机该范围内的一个值",
+            "#itemIsRandomAngle": "元素是否有随机初始角度         [true false]     -- 游戏开始的时候,每一个元素会随机0~360旋转一个角度",
+            "#itemIsRandomFlip": "元素是否随机翻转                [true false]    -- 游戏开始的时候,每一个元素会随机翻转",
+            "#itemOverlay": " 元素堆叠系数           [1 ~ 9]     -- 值越大,堆叠越严重。元素挨在一起,比较难以区分",
+            "#solutionNum": "答案数量                [1 ~ 5]     -- 决定了桌上的元素的数量(同时也是答案的数量)  不可超过 optionNum",
+            "#optionNum": "  答案可选项数量          [2 ~ 6]      -- ",
+            "#optionCountFrom": {
+                "#easy": "   [0 ~ 5] 选项中的icon, 从 简单区分难度 集合中随机取的数量  这里 : easy+normal+hard = optionNum ",
+                "#normal": " [0 ~ 5] 选项中的icon, 从 一般区分难度 集合中随机取的数量",
+                "#hard": "   [0 ~ 5] 选项中的icon, 从 困难区分难度 集合中随机取的数量"
+            }
+        },
+        "resList": "资源配置(现在资源在客户端本地,所以先由客户端配置)"
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                 
+                    {
+                        "itemMovementSpeeds": [
+                            50,
+                            70
+                        ],
+                        "itemRotateSpeeds": [
+                            0,
+                            0
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": false,
+                        "itemOverlay": 3,
+                        "solutionNum": 2,
+                        "optionNum": 3,
+                        "optionCountFrom": {
+                            "easy": 3,
+                            "normal": 0,
+                            "hard": 0
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                   
+                    {
+                        "itemMovementSpeeds": [
+                            90,
+                            120
+                        ],
+                        "itemRotateSpeeds": [
+                            50,
+                            70
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": true,
+                        "itemOverlay": 4,
+                        "solutionNum": 3,
+                        "optionNum": 4,
+                        "optionCountFrom": {
+                            "easy": 4,
+                            "normal": 0,
+                            "hard": 0
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                   
+                    {
+                        "itemMovementSpeeds": [
+                            120,
+                            150
+                        ],
+                        "itemRotateSpeeds": [
+                            90,
+                            120
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": true,
+                        "itemOverlay": 5,
+                        "solutionNum": 4,
+                        "optionNum": 5,
+                        "optionCountFrom": {
+                            "easy": 5,
+                            "normal": 0,
+                            "hard": 0
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                   
+                    {
+                        "itemMovementSpeeds": [
+                            170,
+                            200
+                        ],
+                        "itemRotateSpeeds": [
+                            120,
+                            150
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": true,
+                        "itemOverlay": 5,
+                        "solutionNum": 4,
+                        "optionNum": 5,
+                        "optionCountFrom": {
+                            "easy": 0,
+                            "normal": 5,
+                            "hard": 0
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                   
+                    {
+                        "itemMovementSpeeds": [
+                            260,
+                            280
+                        ],
+                        "itemRotateSpeeds": [
+                            140,
+                            160
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": true,
+                        "itemOverlay": 7,
+                        "solutionNum": 4,
+                        "optionNum": 6,
+                        "optionCountFrom": {
+                            "easy": 0,
+                            "normal": 5,
+                            "hard": 1
+                        }
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                   
+                    {
+                        "itemMovementSpeeds": [
+                            250,
+                            280
+                        ],
+                        "itemRotateSpeeds": [
+                            200,
+                            240
+                        ],
+                        "itemIsRandomAngle": true,
+                        "itemIsRandomFlip": true,
+                        "itemOverlay": 8,
+                        "solutionNum": 4,
+                        "optionNum": 6,
+                        "optionCountFrom": {
+                            "easy": 0,
+                            "normal": 1,
+                            "hard": 5
+                        }
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "RotatingSilhouette"
+    }
+}

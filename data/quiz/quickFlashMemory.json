@@ -1,0 +1,121 @@
+{
+    "configInfo": {
+        "name": "快闪记忆",
+        "difficulty": "level(难度等级) dataList(一个游戏可以由多个关卡组成) num(数字个数) showTime(展示时间)  randNum(该难度下需要随机的题目数量) ",
+        "resList": ""
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "num": 2,
+                        "showTime": 1
+                    },
+                    {
+                        "num": 2,
+                        "showTime": 1
+                    },
+                    {
+                        "num": 2,
+                        "showTime": 0.8
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "num": 2,
+                        "showTime": 0.8
+                    },
+                    {
+                        "num": 3,
+                        "showTime": 1
+                    },
+                    {
+                        "num": 3,
+                        "showTime": 0.8
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "num": 3,
+                        "showTime": 0.8
+                    },
+                    {
+                        "num": 4,
+                        "showTime": 0.8
+                    },
+                    {
+                        "num": 4,
+                        "showTime": 0.7
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "num": 4,
+                        "showTime": 0.7
+                    },
+                    {
+                        "num": 4,
+                        "showTime": 0.7
+                    },
+                    {
+                        "num": 5,
+                        "showTime": 0.8
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "num": 4,
+                        "showTime": 0.5
+                    },
+                    {
+                        "num": 5,
+                        "showTime": 0.6
+                    },
+                    {
+                        "num": 6,
+                        "showTime": 0.8
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "num": 5,
+                        "showTime": 0.6
+                    },
+                    {
+                        "num": 6,
+                        "showTime": 0.7
+                    },
+                    {
+                        "num": 6,
+                        "showTime": 0.6
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "QuickFlashMemory"
+    }
+}

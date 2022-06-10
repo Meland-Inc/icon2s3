@@ -1,0 +1,217 @@
+{
+    "configInfo": {
+        "name": "敲打积木",
+        "difficulty": {
+            "level": "小关卡",
+            "result": "min:随机生成答案的最小值，max:随机生成答案的最大值，max>=min,min>0",
+            "additional": "额外积木数量,additional>1",
+            "split": "组成答案的积木数量,split>1",
+            "negative": "负数数量,negative<split-1"
+        },
+        "resList": ""
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "additional": 1,
+                        "split": 2,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 1,
+                        "split": 2,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "additional": 2,
+                        "split": 2,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "additional": 2,
+                        "split": 2,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 2,
+                        "split": 2,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 3,
+                        "split": 2,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 2,
+                        "split": 2,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 15,
+                            "max": 23
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 10,
+                            "max": 20
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 3,
+                        "split": 3,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 30,
+                            "max": 40
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 30,
+                            "max": 40
+                        },
+                        "additional": 3,
+                        "split": 3,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "result": {
+                            "min": 30,
+                            "max": 40
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 30,
+                            "max": 40
+                        },
+                        "additional": 2,
+                        "split": 3,
+                        "negative": 0
+                    },
+                    {
+                        "result": {
+                            "min": 40,
+                            "max": 50
+                        },
+                        "additional": 3,
+                        "split": 3,
+                        "negative": 0
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "HitBrick"
+    }
+}

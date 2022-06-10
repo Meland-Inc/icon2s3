@@ -1,0 +1,650 @@
+{
+    "configInfo": {
+        "name": "裁剪艺术",
+        "difficulty": {
+            "#level": "难度等级",
+            "#dataList": "一个游戏可以由多个关卡组成",
+            "#randNum": "该难度下需要随机的题目数量",
+            "#itemMovementTracks": "运动轨迹随机数组 [1直线移动且撞墙回弹 2直线移动且穿墙 3从小到大从中往外直线移动,渐隐出场]  -- 游戏开始的时候,会随机选择其中一个运动轨迹",
+            "#itemMovementSpeeds": "移动速度随机区间 [0 ~ 1000]    -- 游戏开始的时候,每一个元素会随机该范围内的一个值 ",
+            "#itemRotateSpeeds": "旋转速度随机区间   [0 ~ 1000]    -- 游戏开始的时候,每一个元素会随机该范围内的一个值",
+            "#itemScaleSpeeds": "缩放速度随机区间    [0 ~ 0.5]     -- 游戏开始的时候,每一个元素会随机该范围内的一个值(仅temMovementTrack=3的时候用上)",
+            "#itemAlphas": "透明随机区间             [0 ~ 1]       -- 游戏开始的时候,每一个元素会随机该范围内的一个值",
+            "#itemScales": "缩放大小随机区间         [0 ~ 1]       -- 游戏开始的时候,每一个元素会随机该范围内的一个值",
+            "#itemNums": "数量区间                   [1~1000]     -- 游戏开始的时候,决定了元素的数量",
+            "#itemColorDiff": "颜色区分难度          [1简单 2一般 3难以区分]",
+            "#optionNum": "答案可选项数量            [2 ~ 4]",
+            "#optionSize": "答案可选项尺寸大小        [small,big]"
+        },
+        "resList": "资源配置(现在资源在客户端本地,所以先由客户端配置)"
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            1
+                        ],
+                        "itemMovementSpeeds": [
+                            0,
+                            5
+                        ],
+                        "itemRotateSpeeds": [
+                            0,
+                            0
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            1,
+                            1
+                        ],
+                        "itemNums": [
+                            3,
+                            3
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            1
+                        ],
+                        "itemMovementSpeeds": [
+                            5,
+                            10
+                        ],
+                        "itemRotateSpeeds": [
+                            0,
+                            5
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            1,
+                            1
+                        ],
+                        "itemNums": [
+                            3,
+                            3
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            1
+                        ],
+                        "itemMovementSpeeds": [
+                            10,
+                            15
+                        ],
+                        "itemRotateSpeeds": [
+                            5,
+                            10
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            1,
+                            1
+                        ],
+                        "itemNums": [
+                            3,
+                            3
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            20,
+                            25
+                        ],
+                        "itemRotateSpeeds": [
+                            20,
+                            25
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.8,
+                            0.8
+                        ],
+                        "itemNums": [
+                            4,
+                            4
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            25,
+                            30
+                        ],
+                        "itemRotateSpeeds": [
+                            25,
+                            30
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.8,
+                            0.8
+                        ],
+                        "itemNums": [
+                            4,
+                            4
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            30,
+                            35
+                        ],
+                        "itemRotateSpeeds": [
+                            30,
+                            35
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.8,
+                            0.8
+                        ],
+                        "itemNums": [
+                            4,
+                            4
+                        ],
+                        "itemScales": [
+                            1,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 1,
+                        "optionSize": "big"
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            40,
+                            45
+                        ],
+                        "itemRotateSpeeds": [
+                            40,
+                            45
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.5,
+                            0.8
+                        ],
+                        "itemNums": [
+                            6,
+                            6
+                        ],
+                        "itemScales": [
+                            0.8,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 2,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            45,
+                            50
+                        ],
+                        "itemRotateSpeeds": [
+                            45,
+                            50
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.5,
+                            0.8
+                        ],
+                        "itemNums": [
+                            6,
+                            6
+                        ],
+                        "itemScales": [
+                            0.8,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 2,
+                        "optionSize": "big"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            50,
+                            55
+                        ],
+                        "itemRotateSpeeds": [
+                            50,
+                            55
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.1
+                        ],
+                        "itemAlphas": [
+                            0.5,
+                            0.8
+                        ],
+                        "itemNums": [
+                            6,
+                            6
+                        ],
+                        "itemScales": [
+                            0.8,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 2,
+                        "optionSize": "big"
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            40,
+                            45
+                        ],
+                        "itemRotateSpeeds": [
+                            40,
+                            45
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.2
+                        ],
+                        "itemAlphas": [
+                            0.4,
+                            0.6
+                        ],
+                        "itemNums": [
+                            10,
+                            10
+                        ],
+                        "itemScales": [
+                            0.6,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            3
+                        ],
+                        "itemMovementSpeeds": [
+                            45,
+                            50
+                        ],
+                        "itemRotateSpeeds": [
+                            45,
+                            50
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.2
+                        ],
+                        "itemAlphas": [
+                            0.4,
+                            0.6
+                        ],
+                        "itemNums": [
+                            16,
+                            18
+                        ],
+                        "itemScales": [
+                            0.6,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            1,
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            50,
+                            55
+                        ],
+                        "itemRotateSpeeds": [
+                            50,
+                            55
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.2
+                        ],
+                        "itemAlphas": [
+                            0.4,
+                            0.6
+                        ],
+                        "itemNums": [
+                            12,
+                            12
+                        ],
+                        "itemScales": [
+                            0.6,
+                            1
+                        ],
+                        "optionNum": 3,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            70,
+                            75
+                        ],
+                        "itemRotateSpeeds": [
+                            70,
+                            75
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            13,
+                            16
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            3
+                        ],
+                        "itemMovementSpeeds": [
+                            80,
+                            85
+                        ],
+                        "itemRotateSpeeds": [
+                            80,
+                            85
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            35,
+                            37
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            90,
+                            95
+                        ],
+                        "itemRotateSpeeds": [
+                            90,
+                            95
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            20,
+                            22
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "itemMovementTracks": [
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            100,
+                            110
+                        ],
+                        "itemRotateSpeeds": [
+                            100,
+                            110
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            20,
+                            22
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            3
+                        ],
+                        "itemMovementSpeeds": [
+                            110,
+                            120
+                        ],
+                        "itemRotateSpeeds": [
+                            110,
+                            120
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            80,
+                            85
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    },
+                    {
+                        "itemMovementTracks": [
+                            2
+                        ],
+                        "itemMovementSpeeds": [
+                            130,
+                            140
+                        ],
+                        "itemRotateSpeeds": [
+                            130,
+                            140
+                        ],
+                        "itemScaleSpeeds": [
+                            0.1,
+                            0.3
+                        ],
+                        "itemAlphas": [
+                            0.3,
+                            0.7
+                        ],
+                        "itemNums": [
+                            30,
+                            35
+                        ],
+                        "itemScales": [
+                            0.5,
+                            1
+                        ],
+                        "optionNum": 4,
+                        "itemColorDiff": 3,
+                        "optionSize": "small"
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [],
+        "type": "CuttingArt"
+    }
+}

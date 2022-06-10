@@ -1,0 +1,161 @@
+{
+    "configInfo": {
+        "name": "逆向记忆",
+        "difficulty": {
+            "level": "难度等级",
+            "num": "记忆个数",
+            "optionsNum": "选项个数",
+            "randNum": "该难度下需要随机的题目数量"
+        },
+        "resList": "资源列表"
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "num": 2,
+                        "optionsNum": 2
+                    },
+                    {
+                        "num": 2,
+                        "optionsNum": 3
+                    },
+                    {
+                        "num": 2,
+                        "optionsNum": 3
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "num": 2,
+                        "optionsNum": 3
+                    },
+                    {
+                        "num": 3,
+                        "optionsNum": 3
+                    },
+                    {
+                        "num": 3,
+                        "optionsNum": 4
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "num": 3,
+                        "optionsNum": 3
+                    },
+                    {
+                        "num": 3,
+                        "optionsNum": 4
+                    },
+                    {
+                        "num": 4,
+                        "optionsNum": 4
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "num": 3,
+                        "optionsNum": 4
+                    },
+                    {
+                        "num": 4,
+                        "optionsNum": 5
+                    },
+                    {
+                        "num": 4,
+                        "optionsNum": 5
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "num": 4,
+                        "optionsNum": 4
+                    },
+                    {
+                        "num": 4,
+                        "optionsNum": 5
+                    },
+                    {
+                        "num": 5,
+                        "optionsNum": 6
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "num": 4,
+                        "optionsNum": 5
+                    },
+                    {
+                        "num": 5,
+                        "optionsNum": 5
+                    },
+                    {
+                        "num": 5,
+                        "optionsNum": 6
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [
+            [
+                "quiz_reverseMemory_0_1_png",
+                "quiz_reverseMemory_0_2_png",
+                "quiz_reverseMemory_0_3_png",
+                "quiz_reverseMemory_0_4_png",
+                "quiz_reverseMemory_0_5_png",
+                "quiz_reverseMemory_0_6_png",
+                "quiz_reverseMemory_0_7_png",
+                "quiz_reverseMemory_0_8_png",
+                "quiz_reverseMemory_0_9_png",
+                "quiz_reverseMemory_0_10_png"
+            ],
+            [
+                "quiz_reverseMemory_1_1_png",
+                "quiz_reverseMemory_1_2_png",
+                "quiz_reverseMemory_1_3_png",
+                "quiz_reverseMemory_1_4_png",
+                "quiz_reverseMemory_1_5_png",
+                "quiz_reverseMemory_1_6_png",
+                "quiz_reverseMemory_1_7_png",
+                "quiz_reverseMemory_1_8_png",
+                "quiz_reverseMemory_1_9_png"
+            ],
+            [
+                "quiz_reverseMemory_2_1_png",
+                "quiz_reverseMemory_2_2_png",
+                "quiz_reverseMemory_2_3_png",
+                "quiz_reverseMemory_2_4_png",
+                "quiz_reverseMemory_2_5_png",
+                "quiz_reverseMemory_2_6_png",
+                "quiz_reverseMemory_2_7_png",
+                "quiz_reverseMemory_2_8_png",
+                "quiz_reverseMemory_2_9_png"
+            ]
+        ],
+        "type": "ReverseMemory"
+    }
+}

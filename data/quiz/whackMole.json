@@ -1,0 +1,164 @@
+{
+    "configInfo": {
+        "name": "配图鼹鼠",
+        "difficulty": "level(难度等级) dataList(一个游戏可以由多个关卡组成) interval(鼹鼠刷新间隔) matchingNum(配图数) maxHoleNum(最大鼹鼠洞数 <= 4) randNum(该难度下需要随机的题目数量) ",
+        "resList": "资源配置(现在资源在客户端本地，所以先由客户端配置)"
+    },
+    "config": {
+        "difficulty": [
+            {
+                "level": 1,
+                "dataList": [
+                    {
+                        "interval": 4,
+                        "matchingNum": 1,
+                        "maxHoleNum": 2
+                    },
+                    {
+                        "interval": 4,
+                        "matchingNum": 2,
+                        "maxHoleNum": 2
+                    },
+                    {
+                        "interval": 4,
+                        "matchingNum": 2,
+                        "maxHoleNum": 3
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 2,
+                "dataList": [
+                    {
+                        "interval": 4,
+                        "matchingNum": 2,
+                        "maxHoleNum": 3
+                    },
+                    {
+                        "interval": 4,
+                        "matchingNum": 2,
+                        "maxHoleNum": 3
+                    },
+                    {
+                        "interval": 4,
+                        "matchingNum": 3,
+                        "maxHoleNum": 3
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 3,
+                "dataList": [
+                    {
+                        "interval": 3,
+                        "matchingNum": 2,
+                        "maxHoleNum": 3
+                    },
+                    {
+                        "interval": 3,
+                        "matchingNum": 2,
+                        "maxHoleNum": 3
+                    },
+                    {
+                        "interval": 3,
+                        "matchingNum": 3,
+                        "maxHoleNum": 3
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 4,
+                "dataList": [
+                    {
+                        "interval": 3,
+                        "matchingNum": 3,
+                        "maxHoleNum": 3
+                    },
+                    {
+                        "interval": 3,
+                        "matchingNum": 3,
+                        "maxHoleNum": 4
+                    },
+                    {
+                        "interval": 3,
+                        "matchingNum": 3,
+                        "maxHoleNum": 4
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 5,
+                "dataList": [
+                    {
+                        "interval": 3,
+                        "matchingNum": 3,
+                        "maxHoleNum": 4
+                    },
+                    {
+                        "interval": 2,
+                        "matchingNum": 3,
+                        "maxHoleNum": 4
+                    },
+                    {
+                        "interval": 2,
+                        "matchingNum": 4,
+                        "maxHoleNum": 4
+                    }
+                ],
+                "randNum": 1000
+            },
+            {
+                "level": 6,
+                "dataList": [
+                    {
+                        "interval": 1.5,
+                        "matchingNum": 3,
+                        "maxHoleNum": 4
+                    },
+                    {
+                        "interval": 1.5,
+                        "matchingNum": 4,
+                        "maxHoleNum": 4
+                    },
+                    {
+                        "interval": 1.5,
+                        "matchingNum": 4,
+                        "maxHoleNum": 4
+                    }
+                ],
+                "randNum": 1000
+            }
+        ],
+        "resList": [
+            [
+                "quiz_whackMole_0_1_png",
+                "quiz_whackMole_0_2_png",
+                "quiz_whackMole_0_3_png",
+                "quiz_whackMole_0_4_png",
+                "quiz_whackMole_0_5_png",
+                "quiz_whackMole_0_6_png",
+                "quiz_whackMole_0_7_png",
+                "quiz_whackMole_0_8_png",
+                "quiz_whackMole_0_9_png",
+                "quiz_whackMole_0_10_png"
+            ],
+            [
+                "quiz_whackMole_2_1_png",
+                "quiz_whackMole_2_2_png",
+                "quiz_whackMole_2_3_png",
+                "quiz_whackMole_2_4_png",
+                "quiz_whackMole_2_5_png",
+                "quiz_whackMole_2_6_png",
+                "quiz_whackMole_2_7_png",
+                "quiz_whackMole_2_8_png",
+                "quiz_whackMole_2_9_png",
+                "quiz_whackMole_2_10_png"
+            ]
+        ],
+        "type": "MatchingMouse"
+    }
+}
