@@ -16,7 +16,7 @@ echo "find done.";
 for pngdir in $pngdirs
 do
     bn=$(basename $pngdir)
-    if [[ "$bn" = @(data|quiz) ]]; then
+    if [[ "$bn" = @(data|quiz|texture) ]]; then
         echo "skip $bn";
     else
         echo "$pngdir";
