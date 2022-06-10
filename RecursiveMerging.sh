@@ -19,6 +19,7 @@ do
     if [[ "$bn" = @(data|quiz) ]]; then
         echo "skip $bn";
     else
+        echo "$pngdir";
         find "$pngdir" -maxdepth 1 -type f -print | xargs -I {} sudo mv {} "${PROJECT_ROOT}/data"
     fi
 done
